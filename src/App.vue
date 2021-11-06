@@ -16,7 +16,7 @@ const tick = () => {
 	if (size.value > 500) size.value = 20
 	requestAnimationFrame(tick)
 }
-requestAnimationFrame(tick)
+// requestAnimationFrame(tick)
 </script>
 
 <template>
